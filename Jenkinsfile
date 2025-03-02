@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         ARTIFACTORY_URL = "https://trial7hlkhb.jfrog.io/artifactory"
-        ARTIFACTORY_REPO = "tf--terraform-modules-local"
+        ARTIFACTORY_REPO = "jfrog-leaper"
         NAMESPACE = "duckets-dev"
         MODULE_NAME = "bucketmaker"
         VERSION = "your-version"
