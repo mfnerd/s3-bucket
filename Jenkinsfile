@@ -65,7 +65,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/mfnerd/aws_alb' 
+                git branch: 'main', url: 'https://github.com/mfnerd/s3-bucket' 
             }
         }
         stage('Initialize Terraform') {
