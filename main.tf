@@ -11,7 +11,7 @@ terraform {
   }
 }
 resource "aws_s3_bucket" "example" {
-  bucket = "my-tf-test-bucket"
+  bucket = "my-bucket-o-gold"
 
   tags = {
     Name        = "My bucket"
